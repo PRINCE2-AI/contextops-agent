@@ -28,12 +28,12 @@ Research basis:
 python demo.py
 ```
 
-Expected output shape:
+Observed demo evidence from the validated portfolio run:
 
 ```json
 {
-  "selected_memories": 4,
-  "compression_ratio": 0.15,
+  "selected_memories": 5,
+  "compression_ratio": 0.152,
   "privacy_decision": "block",
   "leak_count": 2,
   "task_success_score": 1.0,
