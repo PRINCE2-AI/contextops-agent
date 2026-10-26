@@ -9,7 +9,7 @@
 
 **Context engineering, memory, privacy, and evaluation infrastructure for long-horizon AI agents.**
 
-ContextOps Agent wraps an LLM agent with a production-style context layer. It stores typed memory, preserves plans and constraints, reconstructs relevant context, compresses stale history, blocks private-data leakage to tools, and reports measurable quality metrics.
+ContextOps Agent is a production-style context layer for long-horizon LLM agents. It stores typed memory, preserves plans and constraints, reconstructs relevant context, compresses stale history, blocks private-data leakage to tools, and reports measurable quality metrics.
 
 Research basis:
 
@@ -81,7 +81,7 @@ flowchart LR
 - Evaluation metrics for task success, plan retention, memory precision, privacy score, and token savings.
 - FastAPI endpoint and Streamlit dashboard.
 - Deterministic demo and CI-ready tests.
-- OpenAI API-first design with local deterministic fallback for portfolio evaluation.
+- Deterministic local evaluation by default; OpenAI key/model settings are surfaced by `/health`, but the demo makes no model calls.
 
 ## Quick Start
 
